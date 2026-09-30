@@ -1,0 +1,9 @@
+{
+  "name": "kalsis",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix site run dev",
+    "start": "npm --prefix site start",
+    "check": "npm --prefix site run check"
+  }
+}

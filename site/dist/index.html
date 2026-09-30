@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#234b38">
+  <meta name="description" content="کالسیس؛ طعم خوبِ محصولات خانگی در یزد. سوسیس، کالباس و فرآورده‌های خانگی با گوشت تازه و ادویه‌های طبیعی. محصولات را ببینید و در ایتا سفارش دهید.">
+  <meta property="og:title" content="کالسیس | طعم خوبِ خونه">
+  <meta property="og:description" content="از آشپزخانهٔ ما در یزد، برای لحظه‌های خوش دور سفرهٔ شما.">
+  <meta property="og:type" content="website">
+  <title>کالسیس | طعم خوبِ خونه</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23234b38'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='serif' font-size='46' font-weight='bold' fill='%23f9bb55'%3EK%3C/text%3E%3C/svg%3E">
+  <link rel="preload" href="assets/Vazirmatn.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/Lalezar.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">رفتن به محتوای صفحه</a>
+  <div class="blessing">به نام خالق بهشت <span>✳</span> با عشق، از شهر بادگیرها</div>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="#home" aria-label="کالسیس، خانه"><span class="brand-symbol" aria-hidden="true">ک</span><span><strong>کالسیس</strong><small>طعم خوبِ خونه</small></span></a>
+      <nav class="desktop-nav" aria-label="منوی اصلی">
+        <a href="#products">خوشمزه‌های ما</a><a href="#story">قصهٔ کالسیس</a><a href="#how-to-order">روش سفارش</a><a href="#club">باشگاه مشتریان</a>
+      </nav>
+      <div class="nav-actions"><button class="button button-small button-green" data-order>سفارش خوشمزگی <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 13H4L5 8ZM8 8V6a4 4 0 0 1 8 0v2"/></svg></button><button class="menu-toggle icon-button" aria-label="باز کردن منو" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button></div>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="منوی موبایل" hidden><a href="#products">خوشمزه‌های ما</a><a href="#story">قصهٔ کالسیس</a><a href="#how-to-order">روش سفارش</a><a href="#club">باشگاه مشتریان</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-flower" aria-hidden="true">✳</span> دست‌ساز، تازه، با عشق</p>
+        <h1>خوشمزگی،<br>از <span>دلِ خونه.</span></h1>
+        <p class="hero-description">بعضی طعم‌ها، مزهٔ دور هم بودن می‌دهند.<br>ما در کالسیس، گوشت تازه و ادویه‌های طبیعی را با حوصلهٔ یک آشپزخانهٔ خانگی کنار هم می‌گذاریم؛ برای سفرهٔ شما.</p>
+        <div class="hero-actions"><a class="button button-orange" href="#products">کشف خوشمزه‌ها <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 13H4L5 8ZM8 8V6a4 4 0 0 1 8 0v2"/></svg></a><a class="text-link" href="#story"><span class="play-icon" aria-hidden="true">▷</span> داستان ما را بخوانید</a></div>
+        <div class="hero-note"><span class="note-icon" aria-hidden="true">♡</span><p><strong>خونگی درست می‌کنیم، مثل غذای خودمون.</strong><span>از یزد، با عطر ادویه و کلی عشق</span></p></div>
+      </div>
+      <div class="hero-art">
+        <div class="art-caption" dir="ltr">MADE WITH LOVE, IN YAZD</div>
+        <div class="photo-backdrop"></div>
+        <div class="voxel-photo" id="voxel-scene"><img id="hero-image" src="assets/chicken-mushroom.png" alt="کالباس مرغ و قارچ خانگی کالسیس با برش‌های رنگارنگ روی ترمهٔ یزدی" fetchpriority="high" width="1707" height="1280"><canvas id="voxel-canvas" aria-hidden="true"></canvas></div>
+        <div class="fresh-seal"><span>با حوصله و عشق</span><strong>خونگیه!</strong><span>✦ کالسیس ✦</span></div>
+        <div class="floating-label"><span class="label-flower" aria-hidden="true">✳</span><div>یه برش حالِ خوب<small>کالباس مرغ و قارچ</small></div></div>
+        <span class="pixel p1" aria-hidden="true"></span><span class="pixel p2" aria-hidden="true"></span><span class="pixel p3" aria-hidden="true"></span>
+        <p class="interaction-hint"><span aria-hidden="true">✧</span> یه لمس کوچیک، یه ذره شیطنت!</p>
+      </div>
+    </section>
+    <div class="values-ribbon" aria-label="ویژگی‌های کالسیس"><div><span>گوشت تازه</span><b>✳</b><span>ادویه‌های طبیعی</span><b>✳</b><span>تهیه‌شده در خانه</span><b>✳</b><span>بدون نگهدارندهٔ مصنوعی</span><b>✳</b><span>با عشق، از یزد</span><b>✳</b></div></div>
+    <section class="products-section section-pad" id="products">
+      <div class="container"><div class="section-heading"><div><p class="eyebrow">از آشپزخانهٔ کالسیس</p><h2>امروز دلت چی می‌خواد؟</h2></div><p>از یک ساندویچ ساده تا میز دورهمی؛<br>برای هر لحظه، یک طعم دوست‌داشتنی.</p></div>
+      <div id="product-filters" class="product-filters" role="group" aria-label="دسته‌بندی محصولات"><button class="filter active" data-filter="all" aria-pressed="true">همهٔ خوشمزه‌ها <span>۱۰</span></button><button class="filter" data-filter="sausage" aria-pressed="false">سوسیس‌ها</button><button class="filter" data-filter="deli" aria-pressed="false">کالباس و ژامبون</button><button class="filter" data-filter="special" aria-pressed="false">انتخاب‌های ویژه</button></div>
+      <div class="product-grid" id="product-grid" aria-live="polite"></div><div class="catalog-actions"><button class="button button-outline" id="show-all">دیدن هر ۱۰ خوشمزه</button></div><p class="catalog-note">عکس‌های مجموعه، با عنوان «از خانوادهٔ…» مشخص شده‌اند. قیمت و موجودی روز را در ایتا بپرسید.</p></div>
+    </section>
+    <section class="story-section section-pad" id="story"><div class="container story-grid">
+      <div class="story-visual"><div class="brand-picture"><img src="assets/brand.png" alt="نشان اصلی کالسیس با تصویر خانوادهٔ صمیمی محصولات خانگی" loading="lazy" width="1085" height="1104"></div><div class="story-stamp">یک خانواده،<br><span>یک عالمه طعم!</span><i aria-hidden="true">♡</i></div><span class="story-dot" aria-hidden="true">✳</span></div>
+      <div class="story-copy"><p class="eyebrow">قصهٔ ما از یک آشپزخانه شروع شد</p><h2>اهلِ یزدیم،<br>اهلِ <span>طعم‌های واقعی.</span></h2><p>در شهر بادگیرها و ترمه‌های رنگارنگ، ما هم قصهٔ خودمان را داریم؛ قصهٔ علاقه به آشپزی و لذتِ درست کردن چیزی که دوستش داریم.</p><p>کالسیس یک تولیدی خانگی است. اینجا از انتخاب گوشت و ادویه تا آماده‌کردن بسته‌ها، هر مرحله با دقت و حوصله انجام می‌شود. دوست داریم طعم محصولاتمان، یادآور صمیمیت غذاهای خانگی باشد.</p><div class="story-signature"><span>از خونهٔ ما، به خونهٔ شما</span><strong>با عشق، خانوادهٔ کالسیس</strong></div></div>
+    </div></section>
+    <section class="why-section section-pad"><div class="container"><div class="center-heading"><p class="eyebrow">سادگی، راز خوشمزگی ماست</p><h2>چیزهای خوب، از همین‌جا شروع می‌شوند.</h2></div><div class="values-grid">
+      <article><span class="value-number">۰۱</span><h3>مواد اولیهٔ تازه</h3><p>گوشت تازه و مواد اولیه‌ای که با دقت برای هر نوبت تولید انتخاب می‌کنیم.</p></article><article><span class="value-number">۰۲</span><h3>عطرِ واقعی ادویه</h3><p>ادویه‌های طبیعی و ترکیب‌هایی که به هر محصول، طعم مخصوص خودش را می‌دهند.</p></article><article><span class="value-number">۰۳</span><h3>حوصلهٔ یک کار خانگی</h3><p>آماده‌سازی با دقت، در محیطی پاکیزه؛ با همان توجهی که برای غذای خانه داریم.</p></article><article><span class="value-number">۰۴</span><h3>یک ارتباط نزدیک</h3><p>از سؤال دربارهٔ ترکیبات تا هماهنگی سفارش، خودمان در کنارتان هستیم.</p></article>
+    </div></div></section>
+    <section class="order-section section-pad" id="how-to-order"><div class="container order-layout"><div class="order-intro"><p class="eyebrow">از اینجا تا سفرهٔ شما</p><h2>سفارش دادن،<br>به سادگی یک سلام.</h2><p>فعلاً در ایتا با هم گپ می‌زنیم و سفارشتان را هماهنگ می‌کنیم.</p><button class="button button-orange" data-order>سفارشم را آماده کنم <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 13H4L5 8ZM8 8V6a4 4 0 0 1 8 0v2"/></svg></button></div><div class="order-steps"><article><span>۱</span><div><h3>خوشمزه‌ات را انتخاب کن</h3><p>محصول دلخواه و مقدارش را انتخاب کن تا متن سفارشت آماده شود.</p></div></article><article><span>۲</span><div><h3>در ایتا هماهنگ کنیم</h3><p>متن را کپی کن و از راه ارتباطی معرفی‌شده در کانال، قیمت و موجودی را بپرس.</p></div></article><article><span>۳</span><div><h3>تازه، برای سفرهٔ تو</h3><p>بعد از تأیید سفارش، زمان آماده‌سازی و شیوهٔ تحویل را با هم هماهنگ می‌کنیم.</p></div></article></div></div></section>
+    <section class="club-section container" id="club"><div class="club-decoration" aria-hidden="true"><span>✳</span><i>♡</i><b>✦</b></div><div class="club-copy"><p class="club-label">یک جمع خوش‌سلیقه <span>به‌زودی</span></p><h2>به خانوادهٔ کالسیس نزدیک‌تر شو.</h2><p>باشگاه مشتریان ما در راه است؛ جایی برای خبرهای تازه و پیشنهادهای ویژه.<br>تا آن روز، در کانال ایتا کنار هم هستیم.</p><a class="button button-cream eitaa-link" href="https://eitaa.com/kalsis_1404" target="_blank" rel="noopener noreferrer">همراه کالسیس در ایتا <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 3-7 18-4-7-7-4 18-7ZM10 14 21 3"/></svg></a></div><div class="club-card" aria-hidden="true"><div><span>KALSIS FAMILY</span><b>✳</b></div><strong>طعمِ با هم بودن</strong><p>باشگاه مشتریان کالسیس</p><small>یک خانواده، کلی اتفاق خوشمزه</small></div></section>
+    <section class="faq-section section-pad" id="faq"><div class="container faq-layout"><div><p class="eyebrow">قبل از اولین لقمه</p><h2>شاید سؤال تو هم باشد.</h2><p class="faq-intro">هنوز سؤالی داری؟<br>در ایتا از خودمان بپرس.</p><a class="text-link eitaa-link" href="https://eitaa.com/kalsis_1404" target="_blank" rel="noopener noreferrer">گفت‌وگو با کالسیس <span aria-hidden="true">☏</span></a></div><div class="faq-list">
+      <details open><summary>چطور از قیمت و موجودی باخبر شوم؟<span aria-hidden="true">+</span></summary><p>برای دریافت قیمت و موجودی روز، به کانال ایتای کالسیس سر بزنید و از راه ارتباطی آن با ما هماهنگ کنید. سفارش بعد از تأیید قیمت، مقدار و زمان تحویل نهایی می‌شود.</p></details>
+      <details><summary>محصولات کجا تهیه می‌شوند؟<span aria-hidden="true">+</span></summary><p>کالسیس یک کسب‌وکار تولید خانگی در یزد است. محصولات با گوشت تازه، ادویه‌های طبیعی و بدون رنگ و نگهدارندهٔ مصنوعی تهیه می‌شوند.</p></details>
+      <details><summary>برای اطلاع از ترکیبات و مواد حساسیت‌زا چه کنم؟<span aria-hidden="true">+</span></summary><p>قبل از سفارش، ترکیبات کامل محصول را از ما بپرسید؛ بعضی محصولات پنیر، تخم بلدرچین یا سویق دارند. برای انتخاب محصول کودک نیز سن و حساسیت‌های غذایی را در نظر بگیرید و ترکیبات را بررسی کنید.</p></details>
+      <details><summary>نحوهٔ تحویل و نگهداری محصولات چطور است؟<span aria-hidden="true">+</span></summary><p>شیوه و محدودهٔ تحویل هنگام ثبت سفارش هماهنگ می‌شود. شرایط نگهداری، تاریخ مصرف و روش آماده‌سازی هر محصول را هنگام دریافت از ما بپرسید و مطابق توضیحات بسته‌بندی عمل کنید.</p></details>
+      <details><summary>باشگاه مشتریان شروع به کار کرده؟<span aria-hidden="true">+</span></summary><p>هنوز نه؛ در حال آماده‌کردن آن هستیم. خبر راه‌اندازی و جزئیات عضویت را در کانال ایتای کالسیس اعلام می‌کنیم.</p></details>
+    </div></div></section>
+    <section class="contact-section" id="contact"><div class="container contact-inner"><div><p class="eyebrow">یک سلام، شروع یک آشنایی خوشمزه</p><h2>سفرهٔ بعدی، با کالسیس؟</h2></div><button class="button button-green" data-order>شروع یک سفارش خوشمزه <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 13H4L5 8ZM8 8V6a4 4 0 0 1 8 0v2"/></svg></button></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="brand" href="#home"><span class="brand-symbol" aria-hidden="true">ک</span><span><strong>کالسیس</strong><small>طعم خوبِ خونه</small></span></a><p>فرآورده‌های خانگی، از یزد با عشق.<br>برای لحظه‌های خوش دور یک سفره.</p></div><div><h3>یک دورِ خوشمزه</h3><a href="#products">محصولات ما</a><a href="#story">دربارهٔ کالسیس</a><a href="#club">باشگاه مشتریان</a></div><div><h3>در ارتباط باشیم</h3><a class="eitaa-link" href="https://eitaa.com/kalsis_1404" target="_blank" rel="noopener noreferrer">کانال ایتا <bdi>@kalsis_1404</bdi></a><a id="phone-link" hidden></a><a id="website-link" target="_blank" rel="noopener noreferrer" hidden></a><p>یزد، شهر بادگیرها و طعم‌های اصیل</p></div></div><div class="container footer-bottom"><span>© <span id="year">۱۴۰۵</span> کالسیس؛ با حوصله و عشق.</span><a href="#home">بازگشت به ابتدای صفحه <span aria-hidden="true">↑</span></a></div></footer>
+  <dialog id="order-dialog" aria-labelledby="order-title"><div class="dialog-header"><div><p class="eyebrow">از انتخاب تا هماهنگی</p><h2 id="order-title">یه سفارش خوشمزه</h2></div><button class="dialog-close icon-button" aria-label="بستن سفارش">×</button></div><form id="order-form"><p class="dialog-intro">محصول و مقدار دلخواهت را انتخاب کن؛ متن آماده را برای هماهنگی در ایتا بفرست.</p><div id="order-items"></div><label class="add-product-label" for="add-product">یک خوشمزهٔ دیگر</label><select id="add-product"><option value="">افزودن محصول به سفارش…</option></select><label class="notes-label" for="order-notes">توضیحی برای ما داری؟ <span>اختیاری</span></label><textarea id="order-notes" rows="2" maxlength="500" placeholder="مثلاً زمان موردنظرت برای دریافت…"></textarea><button type="submit" class="button button-green prepare-order">آماده‌کردن متن سفارش</button><div id="order-result" hidden><label for="order-message">متن آمادهٔ سفارش شما</label><textarea id="order-message" readonly rows="6" dir="rtl"></textarea><div class="result-actions"><button type="button" class="button button-orange" id="copy-order">کپی متن سفارش</button><a class="button button-outline eitaa-link" href="https://eitaa.com/kalsis_1404" target="_blank" rel="noopener noreferrer">ادامه در ایتا</a></div><p class="result-hint" role="status">متن آماده است. آن را کپی کنید و از راه ارتباطی کانال ایتا با ما هماهنگ کنید.</p></div><p class="dialog-footnote">این فرم پیامی ارسال نمی‌کند. قیمت، موجودی و تحویل پس از هماهنگی تأیید می‌شود.</p></form></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
